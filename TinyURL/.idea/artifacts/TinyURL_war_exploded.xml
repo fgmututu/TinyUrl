@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TinyURL:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TinyURL_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TinyURL/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TinyURL" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
