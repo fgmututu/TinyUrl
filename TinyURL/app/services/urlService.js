@@ -1,6 +1,7 @@
 var UrlModel = require('../models/urlModel');
 var redis = require('redis');
 var host = process.env.REDIS_PORT_6379_TCP_ADDR || '127.0.0.1';
+// wrong setup for port
 var port = process.env.REDIS_PORT_6379_TCP_ADDR || '6379';
 
 var redisClient  = redis.createClient(port, host);
